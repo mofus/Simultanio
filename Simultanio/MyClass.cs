@@ -1,14 +1,12 @@
-﻿using System;
-
-namespace Simultanio
+﻿namespace Simultanio
 {
-	public class MyClass
-	{
-		public const string Hello = "Hello Simultanio";
+    public class MyClass
+    {
+        public const string Hello = "Hello Simultanio";
 
-		public MyClass ()
-		{
-		}
-	}
+        public static int Adder(int a, int b)
+        {
+            return a + b;
+        }
+    }
 }
-
