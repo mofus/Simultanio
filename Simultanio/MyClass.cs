@@ -26,7 +26,12 @@ namespace Simultanio
 
 		static async Task<string> DownloadPageAsync()
 		{
-			return await GetHttpClient().GetStringAsync("http://google.com").ConfigureAwait(false);
+            var direction = await GetHttpClient().GetStringAsync("http://checkip.dyndns.org/").ConfigureAwait(false);
+            //Search for the ip in the html
+            int first = direction.IndexOf ("Address: ", System.StringComparison.Ordinal) + 9;
+            int last = direction.LastIndexOf ("</body>", System.StringComparison.Ordinal);
+            direction = direction.Substring(first, last - first);
+            return direction;
 		}
     }
 }
