@@ -26,8 +26,7 @@ namespace Simultanio
 
 		static async Task<string> DownloadPageAsync()
 		{
-			return await GetHttpClient().GetStringAsync("http://google.com")
-				.ConfigureAwait(false);
+			return await GetHttpClient().GetStringAsync("http://google.com").ConfigureAwait(false);
 		}
     }
 }

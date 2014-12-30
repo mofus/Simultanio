@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Simultanio_Console
+namespace SimultanioConsole
 {
 	class MainClass
 	{
