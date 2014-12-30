@@ -1,6 +1,4 @@
-﻿using System;
-
-using Foundation;
+﻿using Foundation;
 using AppKit;
 
 namespace SimultanioMac

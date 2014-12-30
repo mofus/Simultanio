@@ -4,11 +4,11 @@ using System.Drawing;
 using Foundation;
 using UIKit;
 
-namespace SimultanioiOS
+namespace SimultanioIPhone
 {
-	public partial class Simultanio_iOSViewController : UIViewController
+	public partial class SimultanioIPhoneViewController : UIViewController
 	{
-		public Simultanio_iOSViewController (IntPtr handle) : base (handle)
+		public SimultanioIPhoneViewController (IntPtr handle) : base (handle)
 		{
 		}
 
@@ -25,8 +25,8 @@ namespace SimultanioiOS
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
-			
 			// Perform any additional setup after loading the view, typically from a nib.
+			TestLabel.Text = Simultanio.MyClass.GetPage();
 		}
 
 		public override void ViewWillAppear (bool animated)

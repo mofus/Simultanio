@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCF09F96-62EE-4B49-9EDF-0A9491B75D46}</ProjectGuid>
+    <ProjectGuid>{A9F76C7F-A667-4C96-AF29-D537F3EDF9D6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SimultanioConsole</RootNamespace>
-    <AssemblyName>Simultanio-Console</AssemblyName>
+    <RootNamespace>Simultanio_Console</RootNamespace>
+    <AssemblyName>Simultanio_Console</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

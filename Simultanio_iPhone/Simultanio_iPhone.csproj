@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{A51785A5-AC40-432E-BDE8-31573FF3498E}</ProjectGuid>
+    <ProjectGuid>{543BF084-D8AD-407B-875D-40D25854518F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SimultanioiOS</RootNamespace>
+    <RootNamespace>Simultanio_iPhone</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>SimultanioiOS</AssemblyName>
+    <AssemblyName>Simultanio_iPhone</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -108,9 +108,9 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="Simultanio-iOSViewController.cs" />
-    <Compile Include="Simultanio-iOSViewController.designer.cs">
-      <DependentUpon>Simultanio-iOSViewController.cs</DependentUpon>
+    <Compile Include="Simultanio_iPhoneViewController.cs" />
+    <Compile Include="Simultanio_iPhoneViewController.designer.cs">
+      <DependentUpon>Simultanio_iPhoneViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

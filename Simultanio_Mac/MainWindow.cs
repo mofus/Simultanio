@@ -19,6 +19,7 @@ namespace SimultanioMac
 		public override void AwakeFromNib ()
 		{
 			base.AwakeFromNib ();
+			testLabel.StringValue = MainClass.hej;
 		}
 	}
 }

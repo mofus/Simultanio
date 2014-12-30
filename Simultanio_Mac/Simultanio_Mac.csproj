@@ -4,11 +4,11 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{A3F8F2AB-B479-4A4A-A458-A89E7DC349F1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{40A97D68-B986-4E1F-B0B4-E83CF05A774A}</ProjectGuid>
+    <ProjectGuid>{0D551ABE-6562-4678-9782-B8583AF48B04}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SimultanioMac</RootNamespace>
+    <RootNamespace>Simultanio_Mac</RootNamespace>
     <MonoMacResourcePrefix>Resources</MonoMacResourcePrefix>
-    <AssemblyName>Simultanio-Mac</AssemblyName>
+    <AssemblyName>Simultanio_Mac</AssemblyName>
     <TargetFrameworkIdentifier>Xamarin.Mac</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
   </PropertyGroup>
